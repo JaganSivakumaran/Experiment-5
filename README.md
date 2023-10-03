@@ -72,10 +72,10 @@ protected void onCreate(Bundle savedInstanceState) {
 super.onCreate(savedInstanceState);
 setContentView(R.layout.activity_main);
 Button show = (Button) findViewById(R.id.button2);
-// show.setOnClickListener(view->
-// {
-// getPhoneContacts();
-// });
+show.setOnClickListener(view->
+{
+getPhoneContacts();
+});
 }
 private void getPhoneContacts(){
 if(ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) !=
