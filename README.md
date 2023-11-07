@@ -122,7 +122,6 @@ xmlns:tools="http://schemas.android.com/tools">
         </intent-filter>
     </activity>
 </application>
-
 </manifest>
 ```
 ## OUTPUT
